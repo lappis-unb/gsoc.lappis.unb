@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    LAPPIS
+  </title>
+  <meta
+    name="description"
+    content="Laboratório Avançado de Produção, Pesquisa & Inovação em Software.
+"
+  />
+  <link rel="shortcut icon" type="image/png" href="files/logo4.png" />
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link
+    rel="canonical"
+    href="http://localhost:4000/"
+  />
+  <link rel="alternate" type="application/rss+xml" title="GSOC LAPPIS"
+  href="http://localhost:4000/feed.xml">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous"
+  />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header" id="header">
+  <div class="wrapper">
+    <div class="header-content">
+      <div data-aos="fade-right" data-aos-anchor="#trigger-left" data-aos-anchor-placement="top-top">
+        <a class="site-title" href="/">
+          <img src="/files/logo.png">
+        </a>
+      </div>
+  
+      <nav class="site-nav">
+        <div class="icontop">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <div id="hideicon">
+          <a href="#about-us" class='page-link'> What is it</a>
+          <a href="#get-started"  class='page-link'> Get Started</a>
+          <a href="#ideias"  class='page-link'> Ideias</a>
+          <a href="#contact"  class='page-link'> Contact</a>
+          <!-- <a href="https://minilappisconf.lappis.rocks/" class='page-link'> MiniLappisConf</a> -->
+        </div>
+      </nav>
+    </div>
+    </div>
+</header>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("hideicon");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+    <div class="page-content">
+        <div id="about-us">
+  <div class="background_about">
+    <div class="content-about">
+      <div class="item" id="trigger-left">
+        <img class="image-about" src="/files/logo6.png" />
+        <h1 class="lappis">LAPPIS</h1>
+        <h1 class="google">GOOGLE</h1>
+        <h1>SUMMER OF CODE</h1>
+        <img class="image-about" src="/files/gsoc.png" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="what-is-it">
+    <div id="title-container-what" class="title-projetos-what">
+        <h1 id="title-what">Whats is it?</h1>
+    </div>
+    <div class="content-what">
+        
+            <div class="box-content">
+                <h3>Google Summer of Code</h3>
+                <p><p>Google Summer of Code is a worldwide online program aimed at attracting new contributors to open-source software development. Participants in Google Summer of Code are matched with mentors from open-source organizations, providing them with valuable insights into real-world software development practices. By working on real projects, contributors have the opportunity to learn from seasoned open-source developers. Additionally, participants receive a small stipend as an incentive.</p>
+
+<p>LAPPIS is one of our 195 mentoring organizations for GSoC 2024! We are part of the 30 organizations participating in GSoC for the first time.</p>
+</p>
+            </div>
+        
+            <div class="box-content">
+                <h3>LAPPIS</h3>
+                <p><p>LAPPIS is a Brazilian Free and Open-Source Software (FOSS) lab dedicated to promoting collaboration and engagement within free and open-source communities. Located in the University of Brasilia (UnB) Led by women, the lab’s mission is to increase the number of young South Americans, women and underrepresented groups in contribute to high-impact open-source projects.</p>
+
+<p>We do this through collaboration with both government and private sector in developing open source projects. We had more than 100 students with scholarship contributing to OSS in Brazilian context. LAPPIS also engage in discussions advocating for open standards, participating in policy discussions and development, and raising awareness about the benefits of open-source development and adoption, while fomenting local industry.</p>
+</p>
+            </div>
+        
+            <div class="box-content">
+                <h3>Brasil Participativo</h3>
+                <p><p>Brasil Participativo is the LARGEST SOCIAL PARTICIPATION PLATFORM OF THE FEDERAL GOVERNMENT of Brazil IN ALL TIMES. The Participative Brazil Platform is the new social participation platform of the federal government, built so that the population can contribute to the creation and improvement of public policies. The platform was developed in open-source software with the support of Dataprev, the Decidim-Brasil community, the Ministry of Management and Innovation in Public Services (MGI), and the University of Brasília (UnB), LAPPIS.</p>
+
+<p>A notable initiative on this platform was the Participatory Pluriannual Plan (PPA) in July 2023, which gathered proposals from over 1.4 million active participants. Looking forward, the Brazil Participativo platform, powered by Decidim, enables national councils, ministries, and federal agencies to conduct inclusive public consultations, creating a space for citizens to actively contribute to the formulation of decrees, ordinances, and other critical actions.</p>
+</p>
+            </div>
+        
+            <div class="box-content">
+                <h3>Decidim</h3>
+                <p><p>Decidim, derived from the Catalan phrase “let’s decide” or “we decide,” is a digital infrastructure designed for participatory democracy. It serves as a digital platform built entirely and collaboratively as free software. Specifically, Decidim is a web environment, or framework, developed in Ruby on Rails, a programming language. This framework enables anyone to create and configure a web platform to function as a political network for democratic participation.</p>
+
+<p>With its robust features and user-friendly interface, Decidim serves as a powerful tool for fostering a more participatory and inclusive democratic process. Moving forward, the Brazil Participativo platform, powered by Decidim, stands as a symbol of digital empowerment, encouraging individuals to create profiles and actively participate in shaping policies that impact their lives.</p>
+</p>
+            </div>
+        
+        <div class="participe">
+            <p class="participe-title">
+                LAPPIS is intending to apply to GSoC 2024.
+            </p>
+            <p>
+                <b>Contributors: </b> Please start with the LAPPIS GSoC getting started guide. We won't have mentors signed up and ready to help you or well-defined project ideas ready until February 2024 or so, but you can go ahead and get some practice on any open source project while you wait.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    const titleContainerWhat = document.getElementById("title-container-what");
+    const titleWhat = document.getElementById("title-what");
+
+    document.addEventListener("scroll", function() {
+        const headerHeight = 55
+        const titleHeightWhat = 288
+        const titleTopWhat = titleContainerWhat.offsetTop - headerHeight
+        const titleBottomWhat = titleContainerWhat.offsetHeight + titleTopWhat - titleHeightWhat
+        if (window.pageYOffset > titleTopWhat) {
+            if (window.pageYOffset < titleBottomWhat) {
+                titleWhat.style.position = "fixed";
+                titleWhat.style.top = "55px";
+                titleContainerWhat.style.alignItems = "normal"
+            } else {
+                titleWhat.style.position = "absolute"
+                titleWhat.style.top = "auto";
+                titleContainerWhat.style.alignItems = "end"
+            }
+        } else {
+            titleWhat.style.position = "relative"
+            titleWhat.style.top = "auto";
+            titleContainerWhat.style.alignItems = "normal"
+        }
+    });
+</script>
+<div id="get-started" class="get-started">
+    <div id="title-container" class="title-started">
+        <h1 id="title" >Get Started</h1>
+    </div>
+    <div class="title-mobile">
+        <h1>Get Started</h1>
+    </div>
+    <div class="started-wrapper">
+        <div class="started-content">
+            <div class="started-title-content">
+                <div class="icon-box">
+                    <i class="fab fa-telegram fa-1x"></i>
+                </div>
+                <div class="started-title">
+                    <p>
+                        Join in our Community Channel
+                    </p>
+                </div>
+            </div>
+            <div class="started-description">
+                Join the Decidim community on <b>Telegram</b> and connect with other developers, mentors, and organizers. Our Discord server is a great place to ask questions, share ideas, and get support throughout about Decidim.
+            </div>
+        </div>
+        <div class="started-content">
+            <div class="started-title-content">
+                <div class="icon-box">
+                    <i class="fas fa-code-branch fa-1x"></i>
+                </div>
+                <div class="started-title">
+                    <p>
+                        Start Contribuiting
+                    </p>
+                </div>
+            </div>
+            <div class="started-description">
+                Contribute to the project and make your mark on open-source development with AOSSIE. By making a Pull Request (PR) to one of our existing projects, you'll have the opportunity to showcase your skills and demonstrate your understanding of the project. This will also give you an opportunity to work with the mentors and get familiar with the project before the official GSoC coding period starts. This is a great way to get started and increase your chances of being selected for the program.
+            </div>
+        </div>
+        <div class="started-content">
+            <div class="started-title-content">
+                <div class="icon-box">
+                    <i class="fas fa-calendar fa-1x"></i>
+                </div>
+                <div class="started-title">
+                    <p>
+                        Write a Draft Application
+                    </p>
+                </div>
+            </div>
+            <div class="started-description">
+                Select an Idea and write a draft application that expands this ideas with your own proposals and showcases how you will execute and complete your project . This is your chance to demonstrate your understanding of the project, your skills, and your passion for open-source development. Our mentors will provide feedback and help you refine your proposal, increasing your chances of being selected for the program.
+            </div>
+        </div>
+        <div class="started-content">
+            <div class="started-title-content">
+                <div class="icon-box">
+                    <i class="fas fa-user fa-1x"></i>
+                </div>
+                <div class="started-title">
+                    <p>
+                        Discuss with Mentors
+                    </p>
+                </div>
+            </div>
+            <div class="started-description">
+                By having a discussion with our mentors, you'll have the opportunity to ask questions, get feedback, and fine-tune your proposal. This will ensure that your proposal is well-aligned with the project goals and that you fully understand the expectations for the project. Our mentors will provide guidance and support to help you craft the best possible proposal, increasing your chances of being selected for the program.
+            </div>
+        </div>
+        <div class="started-content">
+            <div class="started-title-content">
+                <div class="icon-box">
+                    <i class="fas fa-calendar fa-1x"></i>
+                </div>
+                <div class="started-title">
+                    <p>
+                        Submit Final Application
+                    </p>
+                </div>
+            </div>
+            <div class="started-description-last">
+                By submitting your final application for GSoC, you'll be taking the last step in your journey to becoming a part of our community and contributing to projects that are shaping the future of technology. Make sure to submit your application before the deadline and include all the details correctly that are asked by Google. Wait for the selection process to take place and cross your fingers!
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const titleContainer = document.getElementById("title-container");
+    const title = document.getElementById("title");
+    const headerStarted = document.getElementById("header");
+
+    document.addEventListener("scroll", function() {
+        const headerHeight = 55
+        const titleHeight = 286
+        const titleTop = titleContainer.offsetTop - headerHeight
+        const titleBottom = titleContainer.offsetHeight + titleTop - titleHeight
+        if (window.pageYOffset > titleTop) {
+            if (window.pageYOffset < titleBottom) {
+                title.style.position = "fixed";
+                title.style.top = "55px";
+                titleContainer.style.alignItems = "normal"
+                headerStarted.style.backgroundColor = "#DC7004"
+            } else {
+                title.style.position = "absolute"
+                title.style.top = "auto";
+                titleContainer.style.alignItems = "end"
+            }
+        } else {
+            title.style.position = "relative"
+            title.style.top = "auto";
+            titleContainer.style.alignItems = "normal"
+            headerStarted.style.backgroundColor = "#262626"
+        }
+    });
+</script>
+
+<div id="ideias" class="projects">
+    <div id="title-container-project" class="title-projetos">
+        <h1 id="title-project" >Ideias</h1>
+    </div>
+    <div class="title-mobile">
+        <h1>Ideias</h1>
+    </div>
+    <div class="project-wrapper">
+        
+            <div class="project-content">
+                <div class="project-title-content">
+                    <div class="project-title">
+                        <p>
+                            Creating a brazilian Boilerplate of a digital participation Platform
+                        </p>
+                         
+                    </div>
+                </div>
+                <div class="project-description">
+                    <p>One critical prerequisite for the Brasil Participativo platform is to ensure universal citizen participation. This presents a significant technopolitical challenge in a country marked by pronounced social and educational disparities, where various segments of the population face obstacles in engaging with virtual environments. In recent years, there has been a growing interest in participatory platforms that enable organizations to engage with their communities effectively. These platforms facilitate two-way communication, allowing organizations to gather feedback, crowdsource ideas, and collaborate with their stakeholders. Building on the success and experience of the Brasil Participativo initiative, we propose to develop a boilerplate that will enable organizations to create their own participatory platforms easily.</p>
+
+<p>The project will focus on creating a basic boilerplate that includes essential features such as user authentication, participatory spaces, user experience. The boilerplate will be designed to be scalable and extensible, allowing organizations to add additional features as needed. By developing a participatory platform boilerplate based on Brasil Participativo, we aim to empower organizations to engage with their communities in a meaningful and impactful way. This project aligns with our commitment to promoting transparency, inclusivity, and democratic participation. Some tasks necessary:
+Develop a customizable and easy-to-deploy boilerplate based on the principles and features of Brasil Participativo. Provide organizations with a tool to create participatory platforms tailored to their needs. Promote transparency, engagement, and collaboration between organizations and their stakeholder</p>
+
+
+
+<!--  -->
+
+
+    <p class="keywords">
+        <b>Project Complexity: </b>intermediate
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Expected size of the project: </b>350 hours
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Skills required/preferred: </b>Ruby on Rails, open source community best practices
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Deliverables: </b>A fully functional participatory platform boilerplate based on Brasil Participativo. Documentation and user guides for deploying and customizing the boilerplate. Support and maintenance services for a specified period after the initial deployment.
+    </p>
+
+                </div>
+            </div>
+            <div class="line-divide"></div>
+        
+            <div class="project-content">
+                <div class="project-title-content">
+                    <div class="project-title">
+                        <p>
+                            The collective power of multiple communities: Integrating the Empurrando Juntas tool with Decidim
+                        </p>
+                         
+                    </div>
+                </div>
+                <div class="project-description">
+                    <p>Empurrando Juntas (EJ) is a powerful tool for social participation, designed to collect opinions and facilitate collaboration. By integrating EJ with Decidim, we can harness the collective power of multiple communities, enabling more inclusive and impactful decision-making processes.</p>
+
+<p>Decidim provides a robust framework for citizen participation, offering features for public consultations, deliberative processes, and collaborative decision-making. By integrating EJ with Decidim, we can enhance the platform’s capabilities, making it easier for participants to engage and contribute.</p>
+
+<p>One key benefit of integrating EJ with Decidim is the ability to leverage EJ’s artificial intelligence techniques for grouping participants based on their opinions. This can help streamline the decision-making process, enabling more efficient and effective collaboration.</p>
+
+<p>Another advantage is the potential to expand the reach of both tools. By integrating EJ with Decidim, we can bring EJ’s powerful participation features to Decidim’s existing user base, and vice versa. This can help foster collaboration and knowledge sharing among different communities, leading to more diverse and inclusive outcomes.</p>
+
+
+
+<!--  -->
+
+
+    <p class="keywords">
+        <b>Project Complexity: </b>intermediate
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Expected size of the project: </b>175 hours
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Skills required/preferred: </b>Ruby on Rails, open source community best practices, machine learning
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Deliverables: </b>A gem integrating the ej platform and Decidim.
+    </p>
+
+                </div>
+            </div>
+            <div class="line-divide"></div>
+        
+            <div class="project-content">
+                <div class="project-title-content">
+                    <div class="project-title">
+                        <p>
+                            Implement a mapping participatory component in Brasil Participativo.
+                        </p>
+                         
+                    </div>
+                </div>
+                <div class="project-description">
+                    <p>Political digital participation encompasses various methods, ranging from conventional public consultations and polls to more innovative approaches like submitting and voting on proposals. However, one less commonly utilized method is mapping, which allows discussions and participation around geolocalized proposals and issues. In essence, this method enables engagement with local, territorial, and political demands and concerns within a geographical context. Despite being widely adopted in social media and other digital arenas, this feature is notably absent in Decidim.</p>
+
+<p>This project aims to fill this gap by implementing a mapping component in Brasil Participativo. The envisioned functionalities include the ability to upload shape files for additional information, enabling the creation of proposals with geocoding, and visualizing proposals and other relevant layers on a single map. Each participatory space will have its own shapefile that can be viewed in isolation or overlaid with other participatory processes conducted on the platform. The functional requirements of this component have already been outlined, along with the necessary technical documentation to develop a plugin in Ruby on Rails, adhering to the Decidim architecture (plugin architecture).</p>
+
+
+
+<!--  -->
+
+
+    <p class="keywords">
+        <b>Project Complexity: </b>intermediate
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Expected size of the project: </b>175 hours (we have the mentors also implementing part of the solution)
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Skills required/preferred: </b>Ruby on rails development. Optional: plugin architecture (development of a gem)
+    </p>
+
+
+
+                </div>
+            </div>
+            <div class="line-divide"></div>
+        
+            <div class="project-content">
+                <div class="project-title-content">
+                    <div class="project-title">
+                        <p>
+                            Improving the performance of Brasil Participativo Platform
+                        </p>
+                         
+                    </div>
+                </div>
+                <div class="project-description">
+                    <p>Decidim faces significant performance challenges when operating at scale, as it was originally designed for smaller user groups such as cities, councils, and districts. Despite employing a Redis cache service to enhance performance, numerous page loads still necessitate a substantial number of database requests, sometimes reaching up to 300. Additionally, database response times can become sluggish as the platform experiences growth beyond 1 million users, particularly during periods of high activity involving proposals and votes.</p>
+
+<p>This project aims to address these performance issues by analyzing performance logs and implementing potential solutions. The focus lies on optimizing the application level, with anticipated outcomes including enhancements to the caching strategy, reassessment of database indexes, and refactoring of code logic that may contribute to slowdowns in response times as the platform scales. We will make available logs of the plataform in production environment with performance issues. Also, performance tools are being configured to give more performance data to the participant. An exemple of the logs provided is depicted bellow.</p>
+
+
+
+<!--  -->
+
+
+    <p class="keywords">
+        <b>Project Complexity: </b>hard/difficult
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Expected size of the project: </b>350 hours (we have the mentors also implementing part of the solution)
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Skills required/preferred: </b> intermediate/advanced backend Ruby on Rails. Optional: execute and understand performance logs.
+    </p>
+
+
+
+                </div>
+            </div>
+            <div class="line-divide"></div>
+        
+            <div class="project-content">
+                <div class="project-title-content">
+                    <div class="project-title">
+                        <p>
+                            Improving the usability to reach underrepresented groups
+                        </p>
+                         
+                    </div>
+                </div>
+                <div class="project-description">
+                    <p>One critical prerequisite for the Brasil Participativo platform is to ensure universal citizen participation. This presents a significant technopolitical challenge in a country marked by pronounced social and educational disparities, where various segments of the population face obstacles in engaging with virtual environments. The primary objective of this project is to comprehensively assess the platform’s usability, language inclusivity, and accessibility. By identifying areas for improvement, the aim is to bridge the gap for traditionally excluded demographics, including those with limited internet access (often restricted to cell phones), minimal technological literacy, and illiteracy.</p>
+
+<p>This project aims to identify possible gaps in the website usability with an extensive report after the assessment. The contributor is expected to evaluate tools for each of the aspects that should be checked (usability, accessibility, performance with low-end mobile devices, performance with unstable internet connection, and language inclusivity), understand relevant metrics and indicators, run checks on the platform and elaborate a document including their findings. The report should also include good examples to be followed and, if possible, suggest changes. This project does not expect nor encourage coding contributions, but they will be welcomed if time permits.</p>
+
+
+
+
+<!--  -->
+
+
+    <p class="keywords">
+        <b>Project Complexity: </b>intermediate
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Expected size of the project: </b>175 hours
+    </p>
+
+
+
+    <p class="keywords">
+        <b>Skills required/preferred: </b>User experience knowledge
+    </p>
+
+
+
+                </div>
+            </div>
+            <div class="line-divide"></div>
+        
+    </div>
+</div>
+
+<script>
+    const titleContainerProject = document.getElementById("title-container-project");
+    const titleProject = document.getElementById("title-project");
+    const headerProject = document.getElementById("header");
+
+    document.addEventListener("scroll", function() {
+        const headerHeight = 55
+        const titleHeightProject = 185
+        const titleTopProject = titleContainerProject.offsetTop - headerHeight
+        const titleBottomProject = titleContainerProject.offsetHeight + titleTopProject - titleHeightProject
+        if (window.pageYOffset > titleTopProject) {
+            if (window.pageYOffset < titleBottomProject) {
+                titleProject.style.position = "fixed";
+                titleProject.style.top = "55px";
+                titleContainerProject.style.alignItems = "normal"
+                headerProject.style.backgroundColor = "#0068b4"
+            } else {
+                titleProject.style.position = "absolute"
+                titleProject.style.top = "auto";
+                titleContainerProject.style.alignItems = "end"
+            }
+        } else {
+            titleProject.style.position = "relative"
+            titleProject.style.top = "auto";
+            titleContainerProject.style.alignItems = "normal"
+        }
+    });
+</script>
+<div id="contact">
+    <div class="contact-wrapper">
+        <span class="contact-heading">Contact</span>
+        <div class="contact-col-wrapper">
+            <div class="contact-col">
+                <ul class="contact-list">
+                    <i class="fas fa-at fa-1x"></i>
+                    <li><a href="mailto:caguiar@unb.br / https://carlarocha.org">caguiar@unb.br / https://carlarocha.org</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-col-1">
+                <ul class="social-media-list">
+                    
+                    <a class="github" href="https://github.com/lappis-unb">
+                        <i class="fab fa-github fa-1x"></i>
+                        <p class="username"> lappis-unb </p>
+                    </a>
+                    
+
+                    
+                    <a class="twitter" href="https://twitter.com/lappisunb">
+                        <i class="fab fa-twitter fa-1x"></i>
+                        <p class="username"> lappisunb </p>
+                    </a>
+                    
+
+                    
+                    <a class="facebook" href="https://www.facebook.com/lappisunb5/">
+                        <i class="fab fa-facebook fa-1x"></i>
+                        <p class="username"> lappisunb5 </p>
+                    </a>
+                    
+
+                    
+                    <a class="instagram" href="https://www.instagram.com/lappisunb/">
+                        <i class="fab fa-instagram   fa-1x"></i>
+                        <p class="username"> lappisunb </p>
+                    </a>
+                    
+
+                    
+                    <a class="medium" href="https://www.medium.com/lappisunbfga/">
+                        <i class="fab fa-medium   fa-1x"></i>
+                        <p class="username"> @lappisunbfga </p>
+                    </a>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <footer class="site-footer">
+    <p>
+      Copyleft 2019 | Laboratório Avançado de Produção, Pesquisa & Inovação em Software.
+    </p>
+</footer>
+    <script>
+      AOS.init({
+    duration: 1200
+});
+
+(function(w, d, s, u) {
+w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+j.async = true; j.src = 'https://unionchat.lappis.rocks/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944';
+h.parentNode.insertBefore(j, h);
+})(window, document, 'script', 'https://unionchat.lappis.rocks/livechat');
+
+    </script>
+  </body>
+
+</html>

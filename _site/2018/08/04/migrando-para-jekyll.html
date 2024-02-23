@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    Site e blog do Lappis migrados para Jekyll
+  </title>
+  <meta
+    name="description"
+    content="Estamos migrando nosso site de https://fga.unb.br/lappis parahttps://lappis.rocks."
+  />
+  <link rel="shortcut icon" type="image/png" href="files/logo4.png" />
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link
+    rel="canonical"
+    href="http://localhost:4000/2018/08/04/migrando-para-jekyll.html"
+  />
+  <link rel="alternate" type="application/rss+xml" title="GSOC LAPPIS"
+  href="http://localhost:4000/feed.xml">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous"
+  />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header" id="header">
+  <div class="wrapper">
+    <div class="header-content">
+      <div data-aos="fade-right" data-aos-anchor="#trigger-left" data-aos-anchor-placement="top-top">
+        <a class="site-title" href="/">
+          <img src="/files/logo.png">
+        </a>
+      </div>
+  
+      <nav class="site-nav">
+        <div class="icontop">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <div id="hideicon">
+          <a href="#about-us" class='page-link'> What is it</a>
+          <a href="#get-started"  class='page-link'> Get Started</a>
+          <a href="#ideias"  class='page-link'> Ideias</a>
+          <a href="#contact"  class='page-link'> Contact</a>
+          <!-- <a href="https://minilappisconf.lappis.rocks/" class='page-link'> MiniLappisConf</a> -->
+        </div>
+      </nav>
+    </div>
+    </div>
+</header>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("hideicon");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Site e blog do Lappis migrados para Jekyll</h1>
+    <p class="post-meta"><time datetime="2018-08-04T00:00:00-03:00" itemprop="datePublished">Aug 4, 2018</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Estamos migrando nosso site de <a href="https://fga.unb.br/lappis">https://fga.unb.br/lappis</a> para
+<a href="https://lappis.rocks">https://lappis.rocks</a>.</p>
+
+<p>O <a href="https://fga.unb.br/lappis">antigo site</a> hospedado junto ao portal da FGA utilizando
+<a href="http://noosfero.org/">Noosfero</a> continuará disponível e publicamente acessível mas iremos
+a partir de agora publicar conteúdo e notícias utilizando o gerador de site
+estático <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+    <p>
+      Copyleft 2019 | Laboratório Avançado de Produção, Pesquisa & Inovação em Software.
+    </p>
+</footer>
+
+  </body>
+
+</html>

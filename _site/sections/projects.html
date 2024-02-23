@@ -1,0 +1,59 @@
+<div id="ideias" class="projects">
+    <div id="title-container-project" class="title-projetos">
+        <h1 id="title-project" >Ideias</h1>
+    </div>
+    <div class="title-mobile">
+        <h1>Ideias</h1>
+    </div>
+    <div class="project-wrapper">
+        {% for project in site.projects %}
+            <div class="project-content">
+                <div class="project-title-content">
+                    <div class="project-title">
+                        <p>
+                            {{project.name}}
+                        </p>
+                        {% if project.repo %}
+                            <a href="{{project.repo}}">
+                                <i class="fab fa-github fa-1x"></i>
+                            </a>
+                        {% endif %} 
+                    </div>
+                </div>
+                <div class="project-description">
+                    {% include project_info.html project=project %}
+                </div>
+            </div>
+            <div class="line-divide"></div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    const titleContainerProject = document.getElementById("title-container-project");
+    const titleProject = document.getElementById("title-project");
+    const headerProject = document.getElementById("header");
+
+    document.addEventListener("scroll", function() {
+        const headerHeight = 55
+        const titleHeightProject = 185
+        const titleTopProject = titleContainerProject.offsetTop - headerHeight
+        const titleBottomProject = titleContainerProject.offsetHeight + titleTopProject - titleHeightProject
+        if (window.pageYOffset > titleTopProject) {
+            if (window.pageYOffset < titleBottomProject) {
+                titleProject.style.position = "fixed";
+                titleProject.style.top = "55px";
+                titleContainerProject.style.alignItems = "normal"
+                headerProject.style.backgroundColor = "#0068b4"
+            } else {
+                titleProject.style.position = "absolute"
+                titleProject.style.top = "auto";
+                titleContainerProject.style.alignItems = "end"
+            }
+        } else {
+            titleProject.style.position = "relative"
+            titleProject.style.top = "auto";
+            titleContainerProject.style.alignItems = "normal"
+        }
+    });
+</script>

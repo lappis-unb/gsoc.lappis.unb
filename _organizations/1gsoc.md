@@ -1,0 +1,6 @@
+---
+name: Google Summer of Code
+---
+Google Summer of Code is a worldwide online program aimed at attracting new contributors to open-source software development. Participants in Google Summer of Code are matched with mentors from open-source organizations, providing them with valuable insights into real-world software development practices. By working on real projects, contributors have the opportunity to learn from seasoned open-source developers. Additionally, participants receive a small stipend as an incentive.
+
+LAPPIS is one of our 195 mentoring organizations for GSoC 2024! We are part of the 30 organizations participating in GSoC for the first time.
