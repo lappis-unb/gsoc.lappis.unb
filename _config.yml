@@ -20,8 +20,7 @@ medium_username: lappisunbfga
 
 # Build settings
 markdown: kramdown
-exclude: ["README.md"]
-
+exclude: ["README.md", vendor]
 
 collections:
   sections:
