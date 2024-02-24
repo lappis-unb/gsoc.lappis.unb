@@ -769,7 +769,7 @@ svg {
     .started-content a:hover {
       background-color: #DC7004;
       text-decoration: none;
-      margin: 2px 2px;
+      padding: 14px 20px;
       color: white;
       border: none; }
 
@@ -899,7 +899,7 @@ svg {
       .see-our-org .button-see-org a:hover {
         background-color: #0068b4;
         text-decoration: none;
-        margin: 2px 22px;
+        padding: 14px 20px;
         border: none; }
 
 #what-is-it {
