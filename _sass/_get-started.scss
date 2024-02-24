@@ -22,6 +22,7 @@
         padding: 40px 0px;
         font-size: 40px;
         writing-mode: vertical-lr;
+        white-space: nowrap;
     }
     
     @media only screen and (max-width: 770px) {
@@ -55,7 +56,7 @@ svg {
 
 .started-wrapper {
     width: fit-content;
-    margin: 50px 0px;
+    margin-top: 50px;
 }
 
 .started-content {
@@ -136,4 +137,60 @@ svg {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 40px;
+}
+
+.see-our-org {
+    background-color: #262626;
+
+    margin-top: 20px;
+    padding: 35px 0px;
+
+    .apresent-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 30px;
+        img {
+            width: 70px;
+            height: 70px;
+
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 0px;
+            white-space: nowrap;
+            font-family: monospace;
+            font-size: 2em;
+            color: white;
+        }
+    }
+
+    .button-see-org {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        a {
+            border: 1px solid white;
+            border-radius: 5px;
+            color: white;
+            background: none;
+            
+            padding: 12px 18px;
+            margin: 0px 20px;
+
+
+            font-size: 18px;
+
+            &:hover {
+                background-color: #0068b4;
+                text-decoration: none;
+
+                margin: 1px 21px;
+
+                border: none;
+            }
+        }
+    }
 }
