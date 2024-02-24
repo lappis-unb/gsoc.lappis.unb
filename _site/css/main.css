@@ -427,8 +427,8 @@ pre {
         align-items: center;
         width: auto; }
         #about-us .background_about .content-about .item .image-about {
-          width: 120px;
-          height: 120px;
+          width: 100px;
+          height: 100px;
           padding: 0px 30px; }
         #about-us .background_about .content-about .item .lappis {
           animation: typing 6s steps(7) infinite, blink 0.5s step-end infinite alternate;
