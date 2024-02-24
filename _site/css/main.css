@@ -496,7 +496,7 @@ pre {
   @media only screen and (max-width: 1200px) {
     #about-us {
       height: auto;
-      padding-bottom: 50px; }
+      padding: 50px 0px; }
       #about-us .background_about {
         background: none; }
         #about-us .background_about .content-about {
