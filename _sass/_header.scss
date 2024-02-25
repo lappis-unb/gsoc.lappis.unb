@@ -6,13 +6,19 @@
     background-color: #262626;
   
     @media only screen and (max-width: 770px) {
-      height: 100%;
+      height: fit-content;
       background-image: none;
     }
   
     #hideicon {
       a:not(:last-of-type) {
         margin-right: 30px;
+      }
+
+      a {
+        @media only screen and (max-width: 770px) {
+          color: #262626;
+        }
       }
   
       @media only screen and (max-width: 770px) {
@@ -120,7 +126,7 @@
       top: 9px;
       background-color: none;
       @media only screen and (max-width: 1000px) {
-        height: 100%;
+        height: fit-content;
         width: 100%;
         top: 0px;
       }

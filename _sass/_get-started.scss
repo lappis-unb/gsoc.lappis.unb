@@ -30,10 +30,10 @@
     }
 }
 
-.title-mobile {
+.title-mobile-started {
     display: none;
     
-    background-color: #262626;
+    background-color: #DC7004;
     color: white;
     
     padding: 10px 0px;
@@ -57,19 +57,23 @@ svg {
 .started-wrapper {
     width: fit-content;
     margin-top: 50px;
+    
+    @media only screen and (max-width: 770px) {
+        width: 100%;
+    }
 }
 
 .started-content {
     width: fit-content;
     margin: 0px 50px;
+    
+    @media only screen and (max-width: 770px) {
+        margin: 0px 20px;
+    }
 
     p {
         margin: 0px;
         margin-bottom: 30px;
-    }
-
-    @media only screen and (max-width: 770px) {
-        margin: 10%;
     }
       
     a {
@@ -107,6 +111,10 @@ svg {
 
         width: 50px;
         height: 50px;
+
+        @media only screen and (max-width: 770px) {
+            width: 55px;
+        }
 
         background-color: #dc700474;
 
@@ -157,6 +165,10 @@ svg {
     padding-left: 40px;
 
     border-left: 3px solid #dc700474;
+
+    @media only screen and (max-width: 770px) {
+        font-size: 16px;
+    }
 }
 
 .started-description-last {
@@ -180,6 +192,7 @@ svg {
         align-items: center;
 
         margin-bottom: 30px;
+
         img {
             width: 70px;
             height: 70px;
@@ -192,6 +205,10 @@ svg {
             font-family: monospace;
             font-size: 2em;
             color: white;
+
+            @media only screen and (max-width: 1200px) {
+                font-size: 1em;
+            } 
         }
     }
 
@@ -230,6 +247,10 @@ svg {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+        } 
         
         a {
             border: 2px solid white;
@@ -240,8 +261,12 @@ svg {
             padding: 12px 18px;
             margin: 0px 20px;
 
-
             font-size: 18px;
+
+            @media only screen and (max-width: 1200px) {
+                width: -webkit-fill-available;
+                margin-bottom: 20px;
+            } 
 
             &:hover {
                 background-color: #0068b4;

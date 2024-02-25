@@ -28,6 +28,10 @@
             width: 100px;
             height: 100px;
             padding: 0px 30px;
+
+            @media only screen and (max-width: 1200px) {
+              display: none;
+            } 
           }
 
           .lappis {
@@ -38,7 +42,9 @@
             font-family: monospace;
             font-size: 2em;
             color: #0068b4;
-            
+            @media only screen and (max-width: 1200px) {
+              font-size: 1.5em;
+            } 
           }
 
           .google {
@@ -49,6 +55,9 @@
             font-family: monospace;
             font-size: 2em;
             color: #DC7004;
+            @media only screen and (max-width: 1200px) {
+              font-size: 1.5em;
+            } 
           }
 
           h1 {
@@ -56,6 +65,9 @@
             font-family: monospace;
             font-weight: bold;
             font-size: 2em;
+            @media only screen and (max-width: 1200px) {
+              font-size: 1.5em;
+            } 
           }
 
           @keyframes inverttyping {

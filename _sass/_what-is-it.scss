@@ -31,8 +31,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
 
+        @media only screen and (max-width: 770px) {
+            display: flex;
+            flex-direction: column;
+        }
+
         .box-content {
-            margin: 40px 40px;
+            margin: 40px 40px 0px 40px;
 
             h3 {
                 margin: 0;
@@ -56,6 +61,8 @@
 
             grid-column-start: 1;
             grid-column-end: 3;
+
+            margin-top: 40px;
 
             .participe-title {
                 padding-bottom: 10px;

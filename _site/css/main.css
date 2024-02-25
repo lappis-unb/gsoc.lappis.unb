@@ -430,6 +430,9 @@ pre {
           width: 100px;
           height: 100px;
           padding: 0px 30px; }
+          @media only screen and (max-width: 1200px) {
+            #about-us .background_about .content-about .item .image-about {
+              display: none; } }
         #about-us .background_about .content-about .item .lappis {
           animation: typing 6s steps(7) infinite, blink 0.5s step-end infinite alternate;
           white-space: nowrap;
@@ -438,6 +441,9 @@ pre {
           font-family: monospace;
           font-size: 2em;
           color: #0068b4; }
+          @media only screen and (max-width: 1200px) {
+            #about-us .background_about .content-about .item .lappis {
+              font-size: 1.5em; } }
         #about-us .background_about .content-about .item .google {
           animation: inverttyping 6s steps(7) infinite, blink 0.5s step-end infinite alternate;
           white-space: nowrap;
@@ -446,11 +452,17 @@ pre {
           font-family: monospace;
           font-size: 2em;
           color: #DC7004; }
+          @media only screen and (max-width: 1200px) {
+            #about-us .background_about .content-about .item .google {
+              font-size: 1.5em; } }
         #about-us .background_about .content-about .item h1 {
           margin: 0;
           font-family: monospace;
           font-weight: bold;
           font-size: 2em; }
+          @media only screen and (max-width: 1200px) {
+            #about-us .background_about .content-about .item h1 {
+              font-size: 1.5em; } }
 @keyframes inverttyping {
   0% {
     width: 0;
@@ -509,10 +521,13 @@ pre {
   background-color: #262626; }
   @media only screen and (max-width: 770px) {
     .site-header {
-      height: 100%;
+      height: fit-content;
       background-image: none; } }
   .site-header #hideicon a:not(:last-of-type) {
     margin-right: 30px; }
+  @media only screen and (max-width: 770px) {
+    .site-header #hideicon a {
+      color: #262626; } }
   @media only screen and (max-width: 770px) {
     .site-header #hideicon {
       z-index: 5;
@@ -587,7 +602,7 @@ pre {
       background-color: none; } }
   @media only screen and (max-width: 600px) and (max-width: 1000px) {
     .site-nav {
-      height: 100%;
+      height: fit-content;
       width: 100%;
       top: 0px; } }
   @media screen and (max-width: 600px) {
@@ -638,15 +653,15 @@ pre {
     .title-projetos {
       display: none; } }
 
-.title-mobile {
+.title-mobile-projects {
   display: none;
-  background-color: #262626;
+  background-color: #0068b4;
   color: white;
   padding: 10px 0px; }
-  .title-mobile h1 {
+  .title-mobile-projects h1 {
     margin-bottom: 0px; }
   @media only screen and (max-width: 770px) {
-    .title-mobile {
+    .title-mobile-projects {
       display: block; } }
 
 svg {
@@ -663,7 +678,7 @@ svg {
   margin: 30px 50px 0px 50px; }
   @media only screen and (max-width: 770px) {
     .project-content {
-      margin: 10%; } }
+      margin: 30px; } }
 
 .project-title-content {
   display: flex;
@@ -698,7 +713,7 @@ svg {
     margin-bottom: 0px; }
 
 .line-divide {
-  margin-top: 30px; }
+  margin-top: 10px; }
   .line-divide:not(:last-of-type) {
     height: 3px;
     width: 50%;
@@ -708,6 +723,9 @@ svg {
 .mentor-container {
   display: flex;
   margin-top: 12px; }
+  @media only screen and (max-width: 770px) {
+    .mentor-container {
+      flex-direction: column; } }
 
 .mentor-image-content img {
   height: 50px;
@@ -753,15 +771,15 @@ svg {
     .title-started {
       display: none; } }
 
-.title-mobile {
+.title-mobile-started {
   display: none;
-  background-color: #262626;
+  background-color: #DC7004;
   color: white;
   padding: 10px 0px; }
-  .title-mobile h1 {
+  .title-mobile-started h1 {
     margin-bottom: 0px; }
   @media only screen and (max-width: 770px) {
-    .title-mobile {
+    .title-mobile-started {
       display: block; } }
 
 svg {
@@ -773,16 +791,19 @@ svg {
 .started-wrapper {
   width: fit-content;
   margin-top: 50px; }
+  @media only screen and (max-width: 770px) {
+    .started-wrapper {
+      width: 100%; } }
 
 .started-content {
   width: fit-content;
   margin: 0px 50px; }
+  @media only screen and (max-width: 770px) {
+    .started-content {
+      margin: 0px 20px; } }
   .started-content p {
     margin: 0px;
     margin-bottom: 30px; }
-  @media only screen and (max-width: 770px) {
-    .started-content {
-      margin: 10%; } }
   .started-content a {
     border: 2px solid #262626;
     border-radius: 10px;
@@ -810,6 +831,9 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media only screen and (max-width: 770px) {
+      .started-title-content .icon-box {
+        width: 55px; } }
     .started-title-content .icon-box i {
       color: #dc7004; }
   .started-title-content .started-title {
@@ -837,6 +861,9 @@ svg {
   padding-bottom: 25px;
   padding-left: 40px;
   border-left: 3px solid #dc700474; }
+  @media only screen and (max-width: 770px) {
+    .started-description {
+      font-size: 16px; } }
 
 .started-description-last {
   font-size: 20px;
@@ -864,6 +891,9 @@ svg {
       font-family: monospace;
       font-size: 2em;
       color: white; }
+      @media only screen and (max-width: 1200px) {
+        .see-our-org .apresent-title h1 {
+          font-size: 1em; } }
   .see-our-org .bounceInvert {
     animation: bounceInvert 4s ease infinite; }
 @keyframes bounceInvert {
@@ -913,6 +943,9 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media only screen and (max-width: 1200px) {
+      .see-our-org .button-see-org {
+        flex-direction: column; } }
     .see-our-org .button-see-org a {
       border: 2px solid white;
       border-radius: 10px;
@@ -921,6 +954,10 @@ svg {
       padding: 12px 18px;
       margin: 0px 20px;
       font-size: 18px; }
+      @media only screen and (max-width: 1200px) {
+        .see-our-org .button-see-org a {
+          width: -webkit-fill-available;
+          margin-bottom: 20px; } }
       .see-our-org .button-see-org a:hover {
         background-color: #0068b4;
         text-decoration: none;
@@ -949,8 +986,12 @@ svg {
     width: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr; }
+    @media only screen and (max-width: 770px) {
+      #what-is-it .content-what {
+        display: flex;
+        flex-direction: column; } }
     #what-is-it .content-what .box-content {
-      margin: 40px 40px; }
+      margin: 40px 40px 0px 40px; }
       #what-is-it .content-what .box-content h3 {
         margin: 0;
         padding-bottom: 20px;
@@ -965,7 +1006,8 @@ svg {
       flex-direction: column;
       justify-content: center;
       grid-column-start: 1;
-      grid-column-end: 3; }
+      grid-column-end: 3;
+      margin-top: 40px; }
       #what-is-it .content-what .participe .participe-title {
         padding-bottom: 10px; }
       #what-is-it .content-what .participe p {

@@ -2,7 +2,7 @@
     <div id="title-container-project" class="title-projetos">
         <h1 id="title-project" >Ideias</h1>
     </div>
-    <div class="title-mobile">
+    <div class="title-mobile-projects">
         <h1>Ideias</h1>
     </div>
     <div class="project-wrapper">
@@ -25,37 +25,39 @@
                 </div>
                 <div class="mentor-container">
                     {% for mentor in project.mentors %}
-                        <div class="mentor-image-content">
-                            {% if mentor.photo %}
-                                <img class="" src="{{ site.baseurl }}/files/team/{{mentor.photo}}" />
-                            {% endif %}
-                        </div>
-                        <div class="mentor-content">
-                            {% if mentor.name %}
-                                <p>{{mentor.name}}</p>
-                            {% endif %}
-                            <div class="mentor-social">
-                                {% if site.github_username %}
-                                    <li>
-                                        <a href="https://github.com/{{ mentor.github_username }}">
-                                            <i class="fab fa-github" style="color:#0068b4; font-size:20px; margin-right:10px;"></i>
-                                        </a>
-                                    </li>
+                        <div style="display: flex; margin-bottom: 20px;">
+                            <div class="mentor-image-content">
+                                {% if mentor.photo %}
+                                    <img class="" src="{{ site.baseurl }}/files/team/{{mentor.photo}}" />
                                 {% endif %}
-                                {% if site.github_username %}
-                                    <li>
-                                        <a href="https://t.me/{{ mentor.telegram_username }}">
-                                            <i class="fab fa-telegram" style="color:#0068b4; font-size:20px; margin-right:10px;"></i>
-                                        </a>
-                                    </li>
+                            </div>
+                            <div class="mentor-content">
+                                {% if mentor.name %}
+                                    <p>{{mentor.name}}</p>
                                 {% endif %}
-                                {% if site.github_username %}
-                                    <li>
-                                        <a href="mailto:{{ mentor.email }}">
-                                            <i class="fas fa-at" style="color:#0068b4; font-size:20px; margin-right:10px;"></i>
-                                        </a>
-                                    </li>
-                                {% endif %}
+                                <div class="mentor-social">
+                                    {% if site.github_username %}
+                                        <li>
+                                            <a href="https://github.com/{{ mentor.github_username }}">
+                                                <i class="fab fa-github" style="color:#0068b4; font-size:20px; margin-right:10px;"></i>
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                    {% if site.github_username %}
+                                        <li>
+                                            <a href="https://t.me/{{ mentor.telegram_username }}">
+                                                <i class="fab fa-telegram" style="color:#0068b4; font-size:20px; margin-right:10px;"></i>
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                    {% if site.github_username %}
+                                        <li>
+                                            <a href="mailto:{{ mentor.email }}">
+                                                <i class="fas fa-at" style="color:#0068b4; font-size:20px; margin-right:10px;"></i>
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                </div>
                             </div>
                         </div>
                     {% endfor %}

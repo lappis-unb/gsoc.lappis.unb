@@ -30,10 +30,10 @@
     }
 }
 
-.title-mobile {
+.title-mobile-projects {
     display: none;
     
-    background-color: #262626;
+    background-color: #0068b4;
     color: white;
     
     padding: 10px 0px;
@@ -63,7 +63,7 @@ svg {
     margin: 30px 50px 0px 50px;
 
     @media only screen and (max-width: 770px) {
-        margin: 10%;
+        margin: 30px;
     }
 }
 
@@ -128,13 +128,16 @@ svg {
         right: 0px;
     }
 
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .mentor-container {
     display: flex;
-
     margin-top: 12px;
+
+    @media only screen and (max-width: 770px) {
+        flex-direction: column;
+    }
 }
 
 .mentor-image-content {
