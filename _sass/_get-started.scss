@@ -178,6 +178,10 @@ svg {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 40px;
+
+    @media only screen and (max-width: 770px) {
+        font-size: 16px;
+    }
 }
 
 .see-our-org {

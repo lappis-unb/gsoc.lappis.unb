@@ -530,13 +530,11 @@ pre {
       color: #262626; } }
   @media only screen and (max-width: 770px) {
     .site-header #hideicon {
-      z-index: 5;
+      z-index: 40;
       padding-left: 30px;
       padding-top: 0%;
       display: none;
       font-size: 16px;
-      width: 200px;
-      height: 100%;
       background-color: white; } }
   .site-header .icon {
     display: none; }
@@ -693,7 +691,7 @@ svg {
       font-weight: bold; }
       @media only screen and (max-width: 770px) {
         .project-title-content .project-title p {
-          font-size: 15px; } }
+          font-size: 20px; } }
     .project-title-content .project-title a {
       margin-left: 15px;
       font-size: 20px;
@@ -871,6 +869,9 @@ svg {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 40px; }
+  @media only screen and (max-width: 770px) {
+    .started-description-last {
+      font-size: 16px; } }
 
 .see-our-org {
   background-color: #262626;
