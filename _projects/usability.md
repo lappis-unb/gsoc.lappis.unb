@@ -3,6 +3,18 @@ name: "Improving the usability to reach underrepresented groups"
 skill: 'User experience knowledge'
 size: "175 hours"
 complexity: 'intermediate'
+mentors: 
+  - telegram_username: brunamoreira
+    github_username: brunamoreira
+    email: brunanayaramlima@gmail.com
+    name: Bruna Moreira
+    photo: Bruna.jpg
+
+  - telegram_username: LeoSilvaGomes
+    github_username: LeoSilvaGomes
+    email: leonardodasigomes@gmail.com
+    name: Leonardo Gomes
+    photo: Leonardo.jpg
 ---
 One critical prerequisite for the Brasil Participativo platform is to ensure universal citizen participation. This presents a significant technopolitical challenge in a country marked by pronounced social and educational disparities, where various segments of the population face obstacles in engaging with virtual environments. The primary objective of this project is to comprehensively assess the platform's usability, language inclusivity, and accessibility. By identifying areas for improvement, the aim is to bridge the gap for traditionally excluded demographics, including those with limited internet access (often restricted to cell phones), minimal technological literacy, and illiteracy.
 

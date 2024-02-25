@@ -4,6 +4,12 @@ deliverables: 'A gem integrating the ej platform and Decidim.'
 skill: 'Ruby on Rails, open source community best practices, machine learning'
 size: "175 hours"
 complexity: 'intermediate'
+mentors: 
+  - telegram_username: ricardopoppi
+    github_username: ricardopoppi
+    email: ricabras@gmail.com
+    name: Ricardo Poppi
+    photo: Ricardo.jpg
 ---
 Empurrando Juntas (EJ) is a powerful tool for social participation, designed to collect opinions and facilitate collaboration. By integrating EJ with Decidim, we can harness the collective power of multiple communities, enabling more inclusive and impactful decision-making processes.
 

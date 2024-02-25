@@ -4,6 +4,18 @@ deliverables: 'A fully functional participatory platform boilerplate based on Br
 skill: 'Ruby on Rails, open source community best practices'
 size: "350 hours"
 complexity: 'intermediate'
+mentors: 
+  - telegram_username: carla_rocha
+    github_username: rocha.carla
+    email: rocha.carla@gmail.com
+    name: Carla Rocha
+    photo: Carla.jpg
+
+  - telegram_username: LeoSilvaGomes
+    github_username: LeoSilvaGomes
+    email: leonardodasigomes@gmail.com
+    name: Leonardo Gomes
+    photo: Leonardo.jpg
 ---
 One critical prerequisite for the Brasil Participativo platform is to ensure universal citizen participation. This presents a significant technopolitical challenge in a country marked by pronounced social and educational disparities, where various segments of the population face obstacles in engaging with virtual environments. In recent years, there has been a growing interest in participatory platforms that enable organizations to engage with their communities effectively. These platforms facilitate two-way communication, allowing organizations to gather feedback, crowdsource ideas, and collaborate with their stakeholders. Building on the success and experience of the Brasil Participativo initiative, we propose to develop a boilerplate that will enable organizations to create their own participatory platforms easily.
 

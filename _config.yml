@@ -39,6 +39,8 @@ collections:
     output: true
   organizations:
     output: true
+  mentors:
+    output: true
 
 
 

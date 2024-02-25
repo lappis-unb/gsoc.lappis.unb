@@ -3,6 +3,18 @@ name: Implement a mapping participatory component in Brasil Participativo.
 skill: 'Ruby on rails development. Optional: plugin architecture (development of a gem)'
 size: "175 hours (we have the mentors also implementing part of the solution)"
 complexity: 'intermediate'
+mentors: 
+  - telegram_username: guilhermedfs
+    github_username: guilhermedfs14
+    email: guilhermedfs11@gmail.com
+    name: Guilherme Dantas
+    photo: Guilherme.jpg
+
+  - telegram_username: GiovanniAlvissus
+    github_username: giovanni1106
+    email: giovanni.acg@gmail.com
+    name: Giovanni Alvissus
+    photo: Giovanni.jpg
 ---
 Political digital participation encompasses various methods, ranging from conventional public consultations and polls to more innovative approaches like submitting and voting on proposals. However, one less commonly utilized method is mapping, which allows discussions and participation around geolocalized proposals and issues. In essence, this method enables engagement with local, territorial, and political demands and concerns within a geographical context. Despite being widely adopted in social media and other digital arenas, this feature is notably absent in Decidim.
 
