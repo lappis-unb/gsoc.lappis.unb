@@ -5,11 +5,11 @@ skill: 'Ruby on Rails, open source community best practices'
 size: "350 hours"
 complexity: 'intermediate'
 mentors: 
-  - telegram_username: carla_rocha
-    github_username: rocha.carla
-    email: rocha.carla@gmail.com
-    name: Carla Rocha
-    photo: Carla.jpg
+  - telegram_username: Eduardonunes25
+    github_username: ednunes
+    email: eduardonunes2525@gmail.com
+    name: Eduardo Nunes
+    photo: Eduardo.jpg
 
   - telegram_username: LeoSilvaGomes
     github_username: LeoSilvaGomes
