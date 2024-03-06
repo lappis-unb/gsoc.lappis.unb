@@ -873,9 +873,34 @@ svg {
     .started-description-last {
       font-size: 16px; } }
 
+.get-started-video {
+  background-color: #dc7004;
+  margin-top: 20px;
+  padding: 35px 0px; }
+  .get-started-video .get-started-video-content {
+    display: flex;
+    margin: 0px 50px;
+    color: white; }
+    @media only screen and (max-width: 1200px) {
+      .get-started-video .get-started-video-content {
+        flex-direction: column; } }
+    .get-started-video .get-started-video-content .get-started-video-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 50px; }
+      @media only screen and (max-width: 1200px) {
+        .get-started-video .get-started-video-content .get-started-video-text {
+          margin-right: 0px;
+          margin-bottom: 50px; } }
+      .get-started-video .get-started-video-content .get-started-video-text h1 {
+        margin: 0px;
+        font-weight: bold; }
+      .get-started-video .get-started-video-content .get-started-video-text p {
+        margin: 0px; }
+
 .see-our-org {
   background-color: #262626;
-  margin-top: 20px;
   padding: 35px 0px; }
   .see-our-org .apresent-title {
     display: flex;

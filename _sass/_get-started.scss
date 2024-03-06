@@ -184,10 +184,50 @@ svg {
     }
 }
 
+.get-started-video {
+    background-color: #dc7004;
+    
+    margin-top: 20px;
+    padding: 35px 0px;
+
+    .get-started-video-content {
+        display: flex;
+        margin: 0px 50px;
+
+        color: white;
+
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+        } 
+
+        .get-started-video-text {
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+
+            margin-right: 50px;
+
+            @media only screen and (max-width: 1200px) {
+                margin-right: 0px;
+                margin-bottom: 50px;
+            } 
+
+            h1 {
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            p {
+                margin: 0px;
+            }
+        }
+    }
+}
+
 .see-our-org {
     background-color: #262626;
 
-    margin-top: 20px;
     padding: 35px 0px;
 
     .apresent-title {
