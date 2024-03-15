@@ -10,6 +10,11 @@ mentors:
     email: ricabras@gmail.com
     name: Ricardo Poppi
     photo: Ricardo.jpg
+  - telegram_username: mr_davidCarlos
+    github_username: davidCarlos
+    email: davidcarlos@pencillabs.tec.br
+    name: David Carlos
+    photo: David.png
 ---
 Empurrando Juntas (EJ) is a powerful tool for social participation, designed to collect opinions and facilitate collaboration. By integrating EJ with Decidim, we can harness the collective power of multiple communities, enabling more inclusive and impactful decision-making processes.
 
