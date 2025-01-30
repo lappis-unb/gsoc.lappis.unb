@@ -1,5 +1,5 @@
 ---
-name: Implement a mapping participatory component in Brasil Participativo.
+name: (Archive 2024) Implement a mapping participatory component in Brasil Participativo.
 skill: 'Ruby on rails development. Optional: plugin architecture (development of a gem)'
 size: "175 hours (we have the mentors also implementing part of the solution)"
 complexity: 'intermediate'

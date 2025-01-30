@@ -1,5 +1,5 @@
 ---
-name: Improving the performance of Brasil Participativo Platform
+name: (Archive 2024) Improving the performance of Brasil Participativo Platform
 skill: ' intermediate/advanced backend Ruby on Rails. Optional: execute and understand performance logs.'
 size: "350 hours (we have the mentors also implementing part of the solution)"
 complexity: 'hard/difficult'

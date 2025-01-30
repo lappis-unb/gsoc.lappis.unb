@@ -1,5 +1,5 @@
 ---
-name: "The collective power of multiple communities: Integrating the Empurrando Juntas tool with Decidim"
+name: "(Archive 2024) The collective power of multiple communities: Integrating the Empurrando Juntas tool with Decidim"
 deliverables: 'A gem integrating the ej platform and Decidim.'
 skill: 'Ruby on Rails, open source community best practices, machine learning'
 size: "175 hours"

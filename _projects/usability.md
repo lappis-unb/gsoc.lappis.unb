@@ -1,5 +1,5 @@
 ---
-name: "Improving the usability to reach underrepresented groups"
+name: "(Archive 2024) Improving the usability to reach underrepresented groups"
 skill: 'User experience knowledge'
 size: "175 hours"
 complexity: 'intermediate'

@@ -1,5 +1,5 @@
 ---
-name: Creating a brazilian Boilerplate of a digital participation Platform
+name: (Archive 2024) Creating a brazilian Boilerplate of a digital participation Platform
 deliverables: 'A fully functional participatory platform boilerplate based on Brasil Participativo. Documentation and user guides for deploying and customizing the boilerplate. Support and maintenance services for a specified period after the initial deployment.'
 skill: 'Ruby on Rails, open source community best practices'
 size: "350 hours"
