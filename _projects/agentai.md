@@ -5,15 +5,15 @@ skill: 'Python, SQL (Postgres), Machine learning'
 size: "240 hours"
 complexity: 'intermediate'
 mentors: 
-  - telegram_username: Eduardonunes25
-    github_username: ednunes
-    email: eduardonunes2525@gmail.com
+  - telegram_username: joaoegewarth   
+    github_username: egewarth  
+    email: egewarth@gmail.com 
     name:  João Egewarth
     photo: joao.jpg
 
-  - telegram_username: LeoSilvaGomes
+  - telegram_username: joyce_jdm
     github_username: joyce.jdm
-    email: leonardodasigomes@gmail.com
+    email: egewarth@gmail.com
     name: Joyce Dionizio
     photo: joyce.jpg
 ---
