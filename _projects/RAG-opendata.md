@@ -11,10 +11,10 @@ mentors:
     name: Eric Silveira
     photo: eric.jpg
 
-  - telegram_username: LeoSilvaGomes
-    github_username: LeoSilvaGomes
-    email: leonardodasigomes@gmail.com
-    name:  Paulo Gonçalves
+  - telegram_username: PauloGSR
+    github_username: paulogoncalveslima
+    email: paulongalves436@gmail.com
+    name:  Paulo Gonçalves Lima 
     photo: paulo.jpg
 ---
 We propose building or integrating a robust open-source open data platform—enhanced by Retrieval Augmented Generation (RAG) capabilities—to ensure data accessibility, usability, and meaningful insights. The solution will include the following components:

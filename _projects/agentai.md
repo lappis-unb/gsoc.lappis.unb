@@ -12,8 +12,8 @@ mentors:
     photo: joao.jpg
 
   - telegram_username: joyce_jdm
-    github_username: joyce.jdm
-    email: egewarth@gmail.com
+    github_username: joycejdm
+    email: joycedionizio.jdm@gmail.com
     name: Joyce Dionizio
     photo: joyce.jpg
 ---

@@ -5,15 +5,15 @@ skill: 'Ruby on Rails, PostgreSQL, JavaScript'
 size: "240 hours"
 complexity: 'intermediate'
 mentors: 
-  - telegram_username: LeoSilvaGomes
-    github_username: joyce.jdm
-    email: leonardodasigomes@gmail.com
+  - telegram_username: ntyamba_kassongo
+    github_username: roddas
+    email: roddas360@gmail.com
     name: Rodolfo Cabral Neves
     photo: rodolfo.jpg
 
-  - telegram_username: LeoSilvaGomes
-    github_username: LeoSilvaGomes
-    email: leonardodasigomes@gmail.com
+  - telegram_username: MaiconMares
+    github_username: MaiconMares
+    email: maiconmaresunb@gmail.com
     name:  Maicon Lucas Mares
     photo: maicon.jpg
 ---
