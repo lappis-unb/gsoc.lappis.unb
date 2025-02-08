@@ -11,11 +11,11 @@ mentors:
     name:  João Egewarth
     photo: joao.jpg
 
-  - telegram_username: joyce_jdm
-    github_username: joycejdm
-    email: joycedionizio.jdm@gmail.com
-    name: Joyce Dionizio
-    photo: joyce.jpg
+  - telegram_username: alvesisaque
+    github_username: alvesisaque
+    email: isaque.alves@ime.usp.br
+    name: Isaque Alves
+    photo: isaque.jpg
 ---
 One of the major challenges we face is integrating databases from the Brazilian federal government's core systems. Because there is no unique identifier to link these systems, they rely on unstructured fields—such as the “Observation” field—for record matching.
 
