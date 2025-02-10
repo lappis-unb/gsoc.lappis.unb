@@ -13,7 +13,7 @@ mentors:
 
   - telegram_username: LeoSilvaGomes
     github_username: LeoSilvaGomes
-    email: leonardodasigomes@gmail.com
+    email: giovanni.acg@gmail.com
     name:  Leonardo Lagos
     photo: leolagos.jpg
 ---
