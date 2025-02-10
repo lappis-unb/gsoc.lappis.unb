@@ -15,7 +15,7 @@ mentors:
     github_username: GustavoHenriqueRS
     email: gustavohenriqueprivado@gmail.com
     name: Gustavo Henrique
-    photo: Gustavo.jpg
+    photo: gustavo.jpg
 
 ---
 On Brasil Participativo, the current sign-up process collects extensive user data, creating a significant barrier to civic engagement. One proposed solution is the “cone participation methodology,” which allows users to participate in simpler activities (such as polls) through an easy login process, reserving the more in-depth sign-up steps for more complex participation opportunities. This approach maintains the platform’s reliability while also enabling one-click, hassle-free engagement.
