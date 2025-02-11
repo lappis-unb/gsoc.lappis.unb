@@ -2,7 +2,7 @@
 name: Developing an AI Agent for Big data DataBases Integration from Unstructured Fields
 deliverables: 'An AI agent that integrates multiple large databases by leveraging the "observation" field, fully connected to a robust data pipeline for seamless data processing and analysis.'
 skill: 'Python, SQL (Postgres), Machine learning'
-size: "240 hours"
+size: "175 hours"
 complexity: 'intermediate'
 mentors: 
   - telegram_username: joaoegewarth   

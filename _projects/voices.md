@@ -2,7 +2,7 @@
 name: Speak to Engage - Voice-Driven Participation for an Inclusive Brasil Participativo
 deliverables: 'A Portuguese voice-to-text and text-to-speech solutions into Decidim, deploying a user-friendly chatbot, and providing a proof-of-concept demonstration with comprehensive documentation.'
 skill: 'Python, GraphQL, Machine learning'
-size: "240 hours"
+size: "350 hours"
 complexity: 'intermediate'
 mentors: 
   - telegram_username: ricardopoppi   

@@ -2,7 +2,7 @@
 name: RAG-Enhanced Open Data Platform
 deliverables: 'A fully functional, open-source platform powered by Retrieval Augmented Generation (RAG) and integrated into the Brazil Participativo (BP) ecosystem. This platform will offer intuitive data discovery, interactive querying, and automated summaries or explanations derived from public datasets.'
 skill: 'Python, SQL (Postgres), Airflow, Docker, LLM'
-size: "240 hours"
+size: "350 hours"
 complexity: 'advanced'
 mentors: 
   - telegram_username: PauloGSR
