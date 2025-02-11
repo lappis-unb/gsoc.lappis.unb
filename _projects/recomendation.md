@@ -11,9 +11,9 @@ mentors:
     name: Giovanni Alvissus
     photo: Giovanni.jpg
 
-  - telegram_username: LeoSilvaGomes
-    github_username: LeoSilvaGomes
-    email: leonardodasigomes@gmail.com
+  - telegram_username: lelamo2002
+    github_username: leo_lake
+    email: leleolagomoreno@gmail.com
     name:  Leonardo Lagos
     photo: leolagos.jpg
 ---
