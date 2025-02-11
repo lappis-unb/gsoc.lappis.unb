@@ -2,7 +2,7 @@
 name: Security - Implement a logging dashboard for users on Brasil Participativo platform 
 deliverables: 'A fully functional, open-source logging dashboard integrated into the Brazil Participativo (BP) ecosystem.'
 skill: 'Ruby on Rails, PostgreSQL, JavaScript'
-size: "240 hours"
+size: "175 hours"
 complexity: 'intermediate'
 mentors: 
   - telegram_username: ntyamba_kassongo

@@ -2,7 +2,7 @@
 name:  Machine Learning-Based Recommendation Algorithm for Proposals in Decidim (Rails Ecosystem)
 deliverables: 'Algorithm Implementation: A module that analyzes user votes and suggests proposals matching their interests. Seamless Integration: The feature will be incorporated transparently into the Decidim platform, adhering to Rails best practices.'
 skill: 'Ruby on Rails, Sidekiq / ActiveJob, Database'
-size: "240 hours"
+size: "175 hours"
 complexity: 'intermediaten to advanced'
 mentors: 
   - telegram_username: GiovanniAlvissus

@@ -2,7 +2,7 @@
 name: Progressive User Data Collecting and Minimal Authentication
 deliverables: 'A Decidim plugin with a set of functionalities to collect user data progressively'
 skill: 'Ruby on Rails, MVC, PostgreSQL, JavaScript, HTML and CSS'
-size: "240 hours"
+size: "175 hours"
 complexity: 'intermediate'
 mentors: 
   - telegram_username: VictorJorgeFGA
