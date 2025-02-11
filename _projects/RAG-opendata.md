@@ -5,17 +5,19 @@ skill: 'Python, SQL (Postgres), Airflow, Docker, LLM'
 size: "350 hours"
 complexity: 'advanced'
 mentors: 
-  - telegram_username: LeoSilvaGomes
-    github_username: joyce.jdm
-    email: leonardodasigomes@gmail.com
-    name: Eric Silveira
-    photo: eric.jpg
-
   - telegram_username: PauloGSR
     github_username: paulogoncalveslima
     email: paulongalves436@gmail.com
     name:  Paulo Gonçalves Lima 
     photo: paulo.jpg
+    
+  - telegram_username: joyce_jdm
+    github_username: joycejdm
+    email: joycedionizio.jdm@gmail.com
+    name: Joyce Dionizio
+    photo: joyce.jpg
+
+
 ---
 We propose building or integrating a robust open-source open data platform—enhanced by Retrieval Augmented Generation (RAG) capabilities—to ensure data accessibility, usability, and meaningful insights. The solution will include the following components:
 

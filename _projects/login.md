@@ -7,7 +7,7 @@ complexity: 'intermediate'
 mentors: 
   - telegram_username: VictorJorgeFGA
     github_username: VictorJorgeFGA
-    email: leonardodasigomes@gmail.com
+    email: victor.eng.unb@gmail.com
     name: Victor Goncalves
     photo: Victor.jpg
 
